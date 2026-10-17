@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](https://www.python.org/)
-[![Version](https://img.shields.io/badge/version-5.0.10-success.svg)](./version.json)
+[![Version](https://img.shields.io/badge/version-5.0.11-success.svg)](./version.json)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey.svg)](#平台支持)
 [![Docs](https://img.shields.io/badge/docs-siwx--docs.vercel.app-175fe0.svg)](https://siwx-docs.vercel.app)
 
@@ -61,7 +61,7 @@
 | 平台      | 支持情况         | 说明                            |
 | ------- | ------------ | ----------------------------- |
 | Windows | 完整支持（推荐）     | 密钥提取、数据库解密、Web 控制台、导出、MCP 全功能 |
-| macOS   | 支持微信 4.1.80+ | 通过 LLDB 断点捕获密钥，提取时需微信处于登录状态   |
+| macOS   | 支持微信 4.1.x（4.1.13 实测） | 通过 LLDB 断点捕获密钥，提取时需微信处于登录状态   |
 
 ### macOS 重要说明
 
